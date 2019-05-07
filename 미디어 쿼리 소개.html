@@ -3,10 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>main</title>
+    <style>
+      #gridp{
+        display: grid;
+        grid-template-columns:341px 1fr;
+      }
+      body{
+        margin: 0px;
+      }
+      ol{
+        border-right:1px solid gray;
+        width: 300px;
+        margin:0px;
+      }
+      h1{
+        text-align:center;
+        border-bottom:1px solid gray;
+        text-decoration: none;
+        margin:0px;
+        padding: 20px;
+        height:55px;
+      }
+      h2{
+        border-right:1px solid gray;
+        width:340px;
+        margin:0px;
+      }
+    a{
+      color:black;
+
+    }
+
+    .qkr{
+
+        text-decoration: none;
+    }
+
+
+
+    </style>
   </head>
   <body>
-    <h1><a href="main.html">main</a></h1>
+    <h1><a href="main.html" class="qkr">main</a></h1>
 
+    <div id="gridp">
+    <div>
     <h2><a href="HTML.html">HTML</a></h2>
 
     <ol>
@@ -29,6 +70,7 @@
       <li><a href="부록3 웹사이트 방문자 분석기.html">부록3 웹사이트 방문자 분석기</a></li>
     </ol>
 
+
     <h2><a href="CSS.html">CSS</a></h2>
 
     <ol>
@@ -45,9 +87,28 @@
       <li><a href="css코드 재사용.html">css코드 재사용</a></li>
     </ol>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IJR-pSLGuZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>&nbsp;</p>
+    </div>
 
-    <a href="https://advancedwebranking.com">태그에 관한 통계사이트</a>
+    <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aA4xunvDWU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <div style="padding-left:50px;">
+      <p>@madia(min-width:800px){<br>
+        div{<br>
+        display:none;<br>
+      }
+
+      }
+    이런식으로 넣어서 </p>
+    <p>최소 800이 넘으면 사라지게 끔 만들 수 있습니다.</p>
+    </p>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
   </body>
 </html>

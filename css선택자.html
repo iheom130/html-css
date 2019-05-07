@@ -3,6 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>main</title>
+    <style>
+      #wns{
+        color:yellow;
+      }
+    a{
+      color:black;
+      text-decoration:none;
+    }
+    #active{
+      color:red;
+    }
+    .saw{
+      color:grey;
+    }
+
+    .qkr{
+      color:green;
+    }
+
+
+
+    </style>
   </head>
   <body>
     <h1><a href="main.html">main</a></h1>
@@ -32,10 +54,10 @@
     <h2><a href="CSS.html">CSS</a></h2>
 
     <ol>
-      <li><a href="css추가하는법.html">css추가하는법</a></li>
-      <li><a href="css기본문법.html">css기본문법</a></li>
-      <li><a href="css속성 알아내기.html">css속성 알아내기</a></li>
-      <li><a href="css선택자.html">css선택자</a></li>
+      <li><a href="css추가하는법.html" class="saw" id="wns">css추가하는법</a></li>
+      <li><a href="css기본문법.html"class="saw">css기본문법</a></li>
+      <li><a href="css속성 알아내기.html" class="saw qkr">css속성 알아내기</a></li>
+      <li><a href="css선택자.html" class="saw" id="active">css선택자</a></li>
       <li><a href="박스 모델.html">박스 모델</a></li>
       <li><a href="박스 모델 응용.html">박스 모델 응용</a></li>
       <li><a href="그리드 소개.html">그리드 소개</a></li>
@@ -45,9 +67,29 @@
       <li><a href="css코드 재사용.html">css코드 재사용</a></li>
     </ol>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IJR-pSLGuZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>&nbsp;</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8-rCMmamtDE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <a href="https://advancedwebranking.com">태그에 관한 통계사이트</a>
+    <p>class 속성지정</p>
+    <p>li a href="2.html" class="saw">2/a li</p>
+    <p>이런식으로 적는다.</p>
+    <p>그 후에 스타일에가서 <br>
+    .saw{<br>
+    color:grey;<br>
+    }<br>
+    이런식으로 쓰면 됨
+    </p>
+    <p>코딩은 순서대로 이루어지므로 <br>하나를 빨강으로 그다음 전체 회색하면 당연히 회색이됨<br>
+    따라서 id="active"로 속성값을 주고<br>
+    #active 이런식으로 스타일에서 코딩한다면 id선택자가 이기기 때문에 가능함</p>
+    <p>태그선택자가 제일 약하고 그다음 강한게 클래스, 제일 강한건 id순서임</p>
+    <p>그냥이 태그 a</p>
+    <p>.붙인게 클래스.saw<br>
+    class="saw"</p>
+    <p>#붙인게 id #active<br>
+    id="active"</p>
+
+
+
+
   </body>
 </html>
